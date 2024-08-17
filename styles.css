@@ -1,0 +1,145 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    padding: 20px;
+    margin: 10px;
+}
+
+.properties-slider, .properties-slider_2 {
+    position: relative;
+    max-width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.properties-slider .slides, .properties-slider_2 .slides_2 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.properties-slider img, .properties-slider_2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.prev, .next, .prev_2, .next_2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+}
+
+.prev_2 {
+    left: 0;
+}
+
+.next_2 {
+    right: 0;
+}
+
+.prev:hover, .next:hover, .prev_2:hover, .next_2:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/*Apartir de aquí este código es distinto y el de arriba es el nuevo*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: url(imagenes/jardin.jpg) no-repeat center center/cover;
+    color: white;
+    padding: 400px;
+    text-align: center;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 300px;
+
+}
+
+.header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.nav {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+}
+
+.nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+}
+
+
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label,
+.form-container input {
+    margin-bottom: 15px;
+}
+
+.form-container input {
+    padding: 10px;
+    font-size: 1em;
+}
+
+
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hidden-form{
+    display: none;
+}
+
+
+
